@@ -1,0 +1,10 @@
+<h1 style="text-align: center">Aerodromo!</h1>
+<app-home></app-home>
+<app-calcula-distancias></app-calcula-distancias>
+<div>
+    <tr *ngFor="let Aeroporto of aeroPortos ">
+        <td>{{ Aeroporto.Nome }}</td>
+        <td>{{ Aeroporto.Latitude }}</td>
+    </tr>
+    <!-- {{message}} -->
+</div>
